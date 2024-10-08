@@ -48,7 +48,7 @@ steps:
     ALLURE_ENDPOINT: https://testing.qatools.cloud/
     ALLURE_PROJECT_ID: 1201
     ALLURE_TOKEN: $(ALLURE_TOKEN)
-    ALLURE_RESULTS: $(ALLURE_RESULTS)
+    ALLURE_RESULTS: build/allure-results
     ALLURE_LAUNCH_NAME: "$(Build.DefinitionName)-$(Build.BuildNumber)"
     TEST_BRANCH: $(Build.SourceBranchName)
     ALLURE_LAUNCH_TAGS: "$(Build.SourceBranchName), azure"
