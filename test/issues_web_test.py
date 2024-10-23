@@ -28,7 +28,7 @@ def web_driver():
 @jira_issues("3")
 @pytest.mark.web
 @pytest.mark.critical
-@allure.title("Creating new issue authorized user")
+@allure.title("Creating new issue authorized user ")
 def test_should_create_issue(web_driver):
     steps.open_issues_page(OWNER, REPO)
     steps.create_issue_with_title(ISSUE_TITLE)
