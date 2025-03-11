@@ -45,8 +45,8 @@ steps:
 
   displayName: 'running pytest tests'
   env:
-    ALLURE_ENDPOINT: https://testing.qatools.cloud/
-    ALLURE_PROJECT_ID: 1201
+    ALLURE_ENDPOINT: http://188.243.156.169:22003/
+    ALLURE_PROJECT_ID: 3
     ALLURE_TOKEN: $(ALLURE_TOKEN)
     ALLURE_RESULTS: build/allure-results
     ALLURE_LAUNCH_NAME: "$(Build.DefinitionName)-$(Build.BuildNumber)"
